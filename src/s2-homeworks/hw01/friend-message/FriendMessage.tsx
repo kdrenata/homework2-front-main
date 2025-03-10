@@ -17,6 +17,7 @@ const FriendMessage = (props: FriendMessagePropsType) => {
                 <img
                     id={'hw1-friend-avatar-' + props.message.id}
                     src={props.message.user.avatar}
+                    alt={'avatar'}
                 />
                 <div className={s.friendText}>
                     <div
