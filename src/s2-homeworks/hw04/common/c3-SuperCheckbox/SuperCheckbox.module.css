@@ -1,7 +1,6 @@
 .label {
     display: flex;
     align-items: center;
-
     cursor: pointer;
 }
 
@@ -31,14 +30,19 @@
     appearance: none;
 
     background-image: url('checked.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     /*background: #99ff99;*/
 }
 
 .checkbox:focus {
     border-color: #0059b3;
+    outline: none;
 }
 
 .spanClassName {
     font-family: 'Montserrat', sans-serif;
     color: #06c;
+    margin-left: 8px;
 }
