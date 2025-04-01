@@ -47,12 +47,12 @@ const Stand = () => {
             <div className={s.buttons}>
                 <div>
                     <SuperButton id={'hw4-super-button-default'}>
-                        default
+                        Дефолтная
                     </SuperButton>
                 </div>
                 <div>
                     <SuperButton id={'hw4-super-button-red'} xType={'red'}>
-                        red
+                        Опасность
                     </SuperButton>
                 </div>
                 <div>
@@ -61,7 +61,7 @@ const Stand = () => {
                         xType={'red'}
                         disabled
                     >
-                        disabled
+                        Не активная
                     </SuperButton>
                 </div>
                 <div>
@@ -69,7 +69,7 @@ const Stand = () => {
                         id={'hw4-super-button-secondary'}
                         xType={'secondary'}
                     >
-                        secondary
+                        Дополнительная
                     </SuperButton>
                 </div>
             </div>
@@ -81,7 +81,7 @@ const Stand = () => {
                         checked={stateForAllCheckboxes}
                         onChangeChecked={onCheckboxChange}
                     >
-                        some text
+                        HomeTask
                     </SuperCheckbox>
                 </div>
                 {/*совместим со старым кодом:*/}
