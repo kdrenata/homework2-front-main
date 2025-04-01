@@ -46,12 +46,15 @@ const Stand = () => {
 
             <div className={s.buttons}>
                 <div>
-                    <SuperButton id={'hw4-super-button-default'}>
+                    <SuperButton
+                        id={'hw4-super-button-default'}>
                         Дефолтная
                     </SuperButton>
                 </div>
                 <div>
-                    <SuperButton id={'hw4-super-button-red'} xType={'red'}>
+                    <SuperButton
+                        id={'hw4-super-button-red'}
+                        xType={'red'}>
                         Опасность
                     </SuperButton>
                 </div>
@@ -59,8 +62,7 @@ const Stand = () => {
                     <SuperButton
                         id={'hw4-super-button-disabled'}
                         xType={'red'}
-                        disabled
-                    >
+                        disabled>
                         Не активная
                     </SuperButton>
                 </div>
@@ -79,8 +81,7 @@ const Stand = () => {
                     <SuperCheckbox
                         id={'hw4-super-checkbox-with-text'}
                         checked={stateForAllCheckboxes}
-                        onChangeChecked={onCheckboxChange}
-                    >
+                        onChangeChecked={onCheckboxChange}>
                         HomeTask
                     </SuperCheckbox>
                 </div>
