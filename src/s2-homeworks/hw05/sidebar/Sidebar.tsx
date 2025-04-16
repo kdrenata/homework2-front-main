@@ -11,8 +11,7 @@ type PropsType = {
 }
 
 export const Sidebar: FC<PropsType> = ({open, handleClose, handleOpen}) => {
-    const sidebarClass = s.sidebar
-        + (open ? ' ' + s.open : '')
+    const sidebarClass = `${s.sidebar} ${open ? s.open : s.close}`;
 
     const handleKeyDown  = (e: KeyboardEvent) => {
         if (e.key === 'Tab') {
@@ -37,7 +36,7 @@ export const Sidebar: FC<PropsType> = ({open, handleClose, handleOpen}) => {
             {/*затемнение справа от открытого меню*/}
             {open && <div className={s.background} onClick={handleClose}/>}
 
-            <aside className={sidebarClass}>
+            <aside className={sidebarClass} onBlur={handleClose}>
                 <button className={s.close} onClick={handleClose}>
                     <img
                         src={closeIcon}
