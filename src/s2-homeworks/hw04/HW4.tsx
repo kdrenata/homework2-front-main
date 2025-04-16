@@ -14,7 +14,7 @@ const HW4 = () => {
         <div id={'hw4'}>
             <div className={s2.hwTitle}>Homework #4</div>
             {/*демонстрация возможностей компонент:*/}
-            <div className={s2.hw}  style={{paddingTop: '136px'}}>
+            <div className={s2.hw} style={{paddingTop: '126px'}} >
                 <Stand />
             </div>
         </div>
@@ -22,3 +22,6 @@ const HW4 = () => {
 }
 
 export default HW4
+
+
+
