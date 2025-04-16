@@ -45,7 +45,7 @@ export const Sidebar: FC<PropsType> = ({open, handleClose, handleOpen}) => {
                     />
                 </button>
 
-                <nav id={'hw5-menu'} className={s.nav}>
+                <nav id={'hw5-menu'} className={`${s.nav} ${open && s.active}`}>
                     <NavLink
                         id={'hw5-pre-junior-link'}
                         to={PATH.PRE_JUNIOR}
