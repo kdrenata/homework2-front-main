@@ -1,9 +1,38 @@
 .select {
+    font-family: "Montserrat", sans-serif;
+
+    border: 1px solid #c2c2c2;
+    border-radius: 4px;
+    width: 165px;
+    height: 32px;
+    cursor: pointer;
+
+    appearance: none;
+    padding-left: 10px;
+    padding-right: 30px;
+
+    background-color: white;
+    background-image: url('chevron-down.svg');
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 16px;
+
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .select:focus {
+    outline: none;
+    border-color: #c3dae6;
+    box-shadow: 0 0 0 2px rgba(23, 95, 225, 0.76);
 }
 
 
 .option:hover {
+    font-family: "Montserrat", sans-serif;
+    padding: 4px 10px;
+}
+
+.option:hover {
+    cursor: pointer;
+    background-color: #f0f0f0;
 }
