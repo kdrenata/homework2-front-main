@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/homework2-front-main/static/css/main.91e09fa4.css",
+    "main.css": "/homework2-front-main/static/css/main.75dd0869.css",
     "main.js": "/homework2-front-main/static/js/main.28de85f8.js",
     "static/js/453.6a2980d5.chunk.js": "/homework2-front-main/static/js/453.6a2980d5.chunk.js",
     "static/media/avatar.png": "/homework2-front-main/static/media/avatar.d947cb9d0d13765666b6.png",
@@ -8,16 +8,17 @@
     "static/media/closeOutline.svg": "/homework2-front-main/static/media/closeOutline.b64ba402fac8a549bc2de97e9cf84a61.svg",
     "static/media/checked-radio.svg": "/homework2-front-main/static/media/checked-radio.f6b0c9b02209605ef56b.svg",
     "static/media/editIcon.svg": "/homework2-front-main/static/media/editIcon.0a0cefd2190b593b4f76bb1a5afe0c1f.svg",
+    "static/media/chevron-down.svg": "/homework2-front-main/static/media/chevron-down.dc1bc44c12d489302229.svg",
     "static/media/unchecked-radio.svg": "/homework2-front-main/static/media/unchecked-radio.bb33449b6384219903bb.svg",
     "static/media/checked.svg": "/homework2-front-main/static/media/checked.b75ca55e8759862b4083.svg",
     "index.html": "/homework2-front-main/index.html",
     "static/media/burger.svg": "/homework2-front-main/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
-    "main.91e09fa4.css.map": "/homework2-front-main/static/css/main.91e09fa4.css.map",
+    "main.75dd0869.css.map": "/homework2-front-main/static/css/main.75dd0869.css.map",
     "main.28de85f8.js.map": "/homework2-front-main/static/js/main.28de85f8.js.map",
     "453.6a2980d5.chunk.js.map": "/homework2-front-main/static/js/453.6a2980d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.91e09fa4.css",
+    "static/css/main.75dd0869.css",
     "static/js/main.28de85f8.js"
   ]
 }
