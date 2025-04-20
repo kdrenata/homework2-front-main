@@ -23,7 +23,7 @@
 .select:focus {
     outline: none;
     border-color: #c3dae6;
-    box-shadow: 0 0 0 2px rgba(23, 95, 225, 0.76);
+    box-shadow: 0 0 0 1px rgba(135, 154, 189, 0.76);
 }
 
 
