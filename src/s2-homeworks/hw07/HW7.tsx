@@ -19,7 +19,7 @@ const arr = [
 
 export type OptionType = {
     id: number
-    value: string
+    value: any
 }
 
 
