@@ -1,14 +1,50 @@
+.hw9 {
+    margin: 40px 0 68px;
+}
+
 .buttonsContainer {
+    display: flex;
+    gap: 24px;
+margin-top: 60px;
+    max-width: 192px;
+
+    button {
+        text-transform: capitalize;
+        font-family: "Montserrat", sans-serif;
+        line-height: 1.6;
+    }
 }
 
 .clock {
+    padding-bottom: 210px;
 }
 
 .watch {
+    font-family: "Montserrat", sans-serif;
+    font-size: 21px;
+display: inline;
+    cursor: default;
 }
 
 .watch strong {
+    font-weight: 600;
+}
+
+.moreContainer {
+    position: absolute;
+    opacity: 0;
+    transform: translateY(-40%);
+transition: opacity 0.35s ease, transform 0.45s ease;
+}
+
+.moreContainer.visible {
+    opacity: 1;
+    transform: translateY(0%);
 }
 
 .more {
+    font-family: "Montserrat", sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    top: 9px;
 }
