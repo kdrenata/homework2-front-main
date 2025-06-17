@@ -1,8 +1,24 @@
 .container {
+    padding: 60px 0 100px;
 }
 
 .wrapper {
+    display: flex;
+    align-items: center;
+    padding-bottom: 56px;
 }
 
 .number {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    width: 22px;
 }
+
+.number:nth-child(1) {
+    margin-right: 12px;
+}
+
+.number:nth-child(3) {
+    margin-left: 22px;
+}
+

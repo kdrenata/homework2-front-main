@@ -1,3 +1,37 @@
+/*.loader {*/
+/*    width: 108px;*/
+/*    height: 108px;*/
+/*    border: 8px solid transparent;*/
+
+/*    border-image: linear-gradient(to top, #c7c6f8, #7f5eff) 1;*/
+/*    border-radius: 50%;*/
+/*    animation: spin 1s linear infinite;*/
+/*    margin: 50px;*/
+/*}*/
+
+/*@keyframes spin {*/
+/*    0% { transform: rotate(0deg); }*/
+/*    100% { transform: rotate(360deg); }*/
+/*}*/
 .loader {
-    /*свг и/или анимация*/
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    background: conic-gradient( #4e31b1, #fefffd);
+    mask: radial-gradient(farthest-side, transparent 85%, black 85%);
+    animation: spin 1s linear infinite;
+    margin: 50px;
 }
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.hw10 {
+    margin-top: 45px;
+}
+
+
+
+
+
