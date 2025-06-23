@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/homework2-front-main/static/css/main.21856099.css",
-    "main.js": "/homework2-front-main/static/js/main.e7d4acf8.js",
+    "main.css": "/homework2-front-main/static/css/main.2ad29f61.css",
+    "main.js": "/homework2-front-main/static/js/main.767b14e6.js",
     "static/js/453.6a2980d5.chunk.js": "/homework2-front-main/static/js/453.6a2980d5.chunk.js",
     "static/media/avatar.png": "/homework2-front-main/static/media/avatar.d947cb9d0d13765666b6.png",
     "static/media/404.svg": "/homework2-front-main/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
     "static/media/closeOutline.svg": "/homework2-front-main/static/media/closeOutline.b64ba402fac8a549bc2de97e9cf84a61.svg",
+    "static/media/switch.svg": "/homework2-front-main/static/media/switch.29e16661e08fcf7deff1.svg",
     "static/media/checked-radio.svg": "/homework2-front-main/static/media/checked-radio.f6b0c9b02209605ef56b.svg",
     "static/media/editIcon.svg": "/homework2-front-main/static/media/editIcon.0a0cefd2190b593b4f76bb1a5afe0c1f.svg",
     "static/media/chevron-down.svg": "/homework2-front-main/static/media/chevron-down.dc1bc44c12d489302229.svg",
@@ -13,12 +14,12 @@
     "static/media/checked.svg": "/homework2-front-main/static/media/checked.b75ca55e8759862b4083.svg",
     "index.html": "/homework2-front-main/index.html",
     "static/media/burger.svg": "/homework2-front-main/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
-    "main.21856099.css.map": "/homework2-front-main/static/css/main.21856099.css.map",
-    "main.e7d4acf8.js.map": "/homework2-front-main/static/js/main.e7d4acf8.js.map",
+    "main.2ad29f61.css.map": "/homework2-front-main/static/css/main.2ad29f61.css.map",
+    "main.767b14e6.js.map": "/homework2-front-main/static/js/main.767b14e6.js.map",
     "453.6a2980d5.chunk.js.map": "/homework2-front-main/static/js/453.6a2980d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21856099.css",
-    "static/js/main.e7d4acf8.js"
+    "static/css/main.2ad29f61.css",
+    "static/js/main.767b14e6.js"
   ]
 }
