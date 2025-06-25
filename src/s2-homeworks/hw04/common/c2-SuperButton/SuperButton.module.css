@@ -1,66 +1,70 @@
 .button {
-    font-family: Arial , sans-serif;
+    font-family: Montserrat, serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 2px;
     padding: 5px 24px;
-    letter-spacing: 0.5px;
-    border: none;
-    border-radius: 3px;
-    gap: 10px;
-    font-weight: 700;
-    font-size: 14px;
+    background-color: #0066CC;
     cursor: pointer;
     transition: all 0.3s ease;
 }
+.button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.4);
+}
+.button:disabled {
+    background-color: #c1bfbf;
+    opacity: 0.5;
+}
+
 
 .default {
-    background-color: #0066CC;
-    color: white;
     width: 132px;
+    background-color: #0059b2;
 }
+.default:hover {
+    background-color: #0080ff;
+}
+.default:active {
+    background-color: #0059b2;
+}
+
+
 .red {
-    background-color: #CC1439;
-    color: white;
+    width: 129px;
+    background-color: #cc1439;
 }
+.red:hover {
+    background-color: #ff1a47;
+}
+.red:active {
+    background-color: #b21232;
+}
+
 
 .disabled {
-    background-color: #004d99;
+    width: 133px;
+    background-color: #c1bfbf;
+    cursor: default;
+    opacity: 0.5;
 }
+.disabled:hover {
+    background-color: #c1bfbf;
+}
+
 
 .secondary {
-    border: 1px solid #0066CC;
-    color: #0066CC;
-    background-color: #ede9e9;
+    max-width: 176px;
+    width: 100%;
+    border: 1px solid #06c;
+    color: #06c;
+    background-color: white;
 }
-
-.default:hover {
-    background-color: #e0e0e0;
-    color: white;
-}
-
-.red:hover {
-    background-color: #e60000;
-    color: white;
-}
-
 .secondary:hover {
-    background-color: #ccc;
-    color: white;
+    background-color: #e5f0fa;
 }
-
-
-.default:active {
-    background-color: #d0d0d0;
-}
-
 .secondary:active {
-    background-color: #bbb;
+    background-color: #c9e5ff;
 }
 
-.red:active {
-    background-color: #cc0000;
-}
-
-.button:disabled {
-    background-color: rgba(0, 77, 153, 0.6);
-    color: #9c9a9a;
-    cursor: not-allowed;
-}

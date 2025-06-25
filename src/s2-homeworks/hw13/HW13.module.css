@@ -1,22 +1,45 @@
 .buttonsContainer {
+    color: #0066cc;
+    display: flex;
+    gap: 24px;
 }
 
 .responseContainer {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 88px;
+    height: 370px;
 }
 
 .imageContainer {
 }
 
 .image {
+    max-width: 416px;
 }
 
 .textContainer{
+    max-width: 510px;
+    padding: 12px;
 }
 
 .code {
+    font-size: 28px;
+    margin-bottom: 12px;
 }
 
 .text {
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+
 }
 .info {
+    font-size: 16px;
+    display: flex;
 }
