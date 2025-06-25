@@ -1,9 +1,13 @@
 {
   "files": {
-    "main.css": "/homework2-front-main/static/css/main.2ad29f61.css",
-    "main.js": "/homework2-front-main/static/js/main.767b14e6.js",
-    "static/js/453.6a2980d5.chunk.js": "/homework2-front-main/static/js/453.6a2980d5.chunk.js",
+    "main.css": "/homework2-front-main/static/css/main.32454fcf.css",
+    "main.js": "/homework2-front-main/static/js/main.bfb4af14.js",
+    "static/js/453.0089a6bf.chunk.js": "/homework2-front-main/static/js/453.0089a6bf.chunk.js",
     "static/media/avatar.png": "/homework2-front-main/static/media/avatar.d947cb9d0d13765666b6.png",
+    "static/media/200.svg": "/homework2-front-main/static/media/200.96248f7df0dde10e0a82ac30418f50bc.svg",
+    "static/media/error.svg": "/homework2-front-main/static/media/error.5a3135f381b00b53044eff200e725391.svg",
+    "static/media/500.svg": "/homework2-front-main/static/media/500.adbc5f265f6f3c1fb9c5633ffe365afa.svg",
+    "static/media/400.svg": "/homework2-front-main/static/media/400.8baa1b795048b6fa13ff8d30800aa1b1.svg",
     "static/media/404.svg": "/homework2-front-main/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
     "static/media/closeOutline.svg": "/homework2-front-main/static/media/closeOutline.b64ba402fac8a549bc2de97e9cf84a61.svg",
     "static/media/switch.svg": "/homework2-front-main/static/media/switch.29e16661e08fcf7deff1.svg",
@@ -14,12 +18,12 @@
     "static/media/checked.svg": "/homework2-front-main/static/media/checked.b75ca55e8759862b4083.svg",
     "index.html": "/homework2-front-main/index.html",
     "static/media/burger.svg": "/homework2-front-main/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
-    "main.2ad29f61.css.map": "/homework2-front-main/static/css/main.2ad29f61.css.map",
-    "main.767b14e6.js.map": "/homework2-front-main/static/js/main.767b14e6.js.map",
-    "453.6a2980d5.chunk.js.map": "/homework2-front-main/static/js/453.6a2980d5.chunk.js.map"
+    "main.32454fcf.css.map": "/homework2-front-main/static/css/main.32454fcf.css.map",
+    "main.bfb4af14.js.map": "/homework2-front-main/static/js/main.bfb4af14.js.map",
+    "453.0089a6bf.chunk.js.map": "/homework2-front-main/static/js/453.0089a6bf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ad29f61.css",
-    "static/js/main.767b14e6.js"
+    "static/css/main.32454fcf.css",
+    "static/js/main.bfb4af14.js"
   ]
 }
